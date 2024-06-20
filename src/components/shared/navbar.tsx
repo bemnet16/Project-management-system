@@ -8,7 +8,7 @@ export const Navbar = () => {
         <MobileSidebar />
       </div>
       <div className="h-full bg-white">
-        <NavbarRoutes />
+        <NavbarRoutes children={<span></span>} />
       </div>
     </div>
   );
